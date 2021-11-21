@@ -114,3 +114,29 @@ a.btn-link {
 .right-middle-content .log-in-btn:hover {
     background-color: rgba(29, 145, 218, 0.1);
 }
+
+footer.main-page-footer {
+    grid-column: 1/-1;
+    grid-row: 2/3;
+    padding: 15px 16px;
+}
+
+.main-page-footer nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main-page-footer nav a,
+.main-page-footer nav span {
+    font-size: 16px;
+    color: rgb(91, 112, 131);
+    padding-right: 16px;
+    line-height: calc(19.6875px);
+    margin-bottom: 1rem;
+}
+
+
+.main-page-footer nav a:hover {
+    text-decoration: underline;
+}

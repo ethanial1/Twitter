@@ -29,7 +29,26 @@
                 </div>
             </div>
         </div>
-        <footer aria-label="footer" class="main-page-footer">footer</footer>
+        <footer aria-label="footer" class="main-page-footer">
+            <nav role="navigation">
+                <a href="#">About</a>
+                <a href="#">Help Center</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Privacy Info</a>
+                <a href="#">Ads Info</a>
+                <a href="#">Blog</a>
+                <a href="#">Status</a>
+                <a href="#">Careers</a>
+                <a href="#">Brand</a>
+                <a href="#">Advertising</a>
+                <a href="#">Marketing</a>
+                <a href="#">Twitter for Business</a>
+                <a href="#">Developers</a>
+                <a href="#">Directory</a>
+                <a href="#">Settings</a>
+                <span href="#"> &copy; <?php echo date('y'); ?> Twitter, Inc</span>
+            </nav>
+        </footer>
     </section>
 </body>
 </html>
